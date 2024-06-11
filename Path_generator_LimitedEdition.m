@@ -1,4 +1,4 @@
-function P = Path_generator_LimitedEdition_99106074 (Xs, Xf, eta, B)
+function P = Path_generator_LimitedEdition (Xs, Xf, eta, B)
 % This function is developed by Soheil Hekmat respect to problem 4
 % this function mainly is same as the first function but it will debug the
 % problem we are facing in question 3 with our new obstacle
