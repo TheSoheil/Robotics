@@ -12,7 +12,7 @@ B = [4,12,6,10;6,10,12,16;12,16,10,18;10,18,4,12;
 eta = 1;
 Xs = [1;10];
 Xf = [22;12];
-P = Path_generator_99106074 (Xs, Xf, eta, B);
+P = Path_generator (Xs, Xf, eta, B);
 % now that we have our path. we can plot the obstacles and path (whole
 % workspace). first we visualize the obstacles
 % first obstacle the square:
