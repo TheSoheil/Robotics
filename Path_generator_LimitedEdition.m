@@ -47,7 +47,7 @@ while norm(X - Xf) >= stop_factor
         jump = randi([0 6],1,1);
         theta = 0 + rand*(2*pi-0);
         X_temp = X + [jump*cos(theta); jump*sin(theta)];
-        check = Collision_99106074(X,X_temp,B);
+        check = Collision(X,X_temp,B);
         if check == 0
             X = X + [jump*cos(theta); jump*sin(theta)];
             break
