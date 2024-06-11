@@ -1,7 +1,7 @@
 function R=Rot(axis, angle)
 %Homogenous transformation for a rotation around "axis" for the amount of "angle"
 axis = upper(axis);
-angle = deg2rad(angle);
+%angle = deg2rad(angle);
 if (axis == 'X')
 R=[1 0 0 0; 0 cos(angle) -sin(angle) 0; 0 sin(angle) cos(angle) 0; 0 0 0 1];
 end
