@@ -61,7 +61,7 @@ poly_obstac = poly_maker(obstac_lines);
 % we will build the graph or road map
 graph_links = distance_collision(splitted_graph_vertices,poly_obstac);
 % now to perform dijkstra algorithm for road mapping we define a function.
-road = dijkstra_99106074(graph_links, length(splitted_graph_vertices));
+road = dijkstra(graph_links, length(splitted_graph_vertices));
 % now we wanna plot the obstacles graph and road which we generated(part b)
 % 1.obstacles
 plot(poly_obstac)
