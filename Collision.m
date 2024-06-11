@@ -1,4 +1,4 @@
-function res = Collision_99106074(X,X_temp,B)
+function res = Collision(X,X_temp,B)
 % in this function we want to check whether if our new point of the path
 % collides with obstacles or not
 res = 0;
