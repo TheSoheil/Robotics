@@ -1,4 +1,4 @@
-function road = dijkstra_99106074(graph_links ,num_vertices)
+function road = dijkstra(graph_links ,num_vertices)
 % this function is developed by Soheil Hekmat
 % we wanna perform dijkstra algorithm to find a road or path for our robot
 % we get graph links and number of vertices as input. we will develop a
