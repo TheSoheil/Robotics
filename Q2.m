@@ -130,7 +130,7 @@ conv_poly_obstac = poly_maker(new_obstac_lines);
 % we will build the graph 
 graph_links = distance_collision(split_gr_vert,conv_poly_obstac);
 % now to perform dijkstra algorithm for road mapping we define a function.
-road = dijkstra_99106074(graph_links, length(split_gr_vert));
+road = dijkstra(graph_links, length(split_gr_vert));
 % now we wanna plot the obstacles graph and road which we generated
 % 1. original obstacles and convexed ones
 %plot(conv_poly_obstac,'FaceColor', 'blue','EdgeColor', 'red')
