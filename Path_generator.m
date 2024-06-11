@@ -1,4 +1,4 @@
-function P = Path_generator_99106074 (Xs, Xf, eta, B)
+function P = Path_generator (Xs, Xf, eta, B)
 % This function is developed by Soheil Hekmat respect to problems 1 & 2
 % in this function we will try to create a path based on potential
 % field algorithm to help our robot avoid obstacles which are between
